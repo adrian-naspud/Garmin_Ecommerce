@@ -1,0 +1,69 @@
+/* PRODUCTS */
+.prod1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prod1Title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 32px;
+}
+
+.prod1Items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 60px;
+    padding: 2rem 5%;
+}
+
+.prod1card {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 3px 5px 0px rgba(160, 160, 160, 0.81);
+    padding: 5px;
+}
+
+.prod1CardTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.prod1CardPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod1CardPrice1 {
+    padding-right: 32px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.prod1CardPrice2 {
+    padding-right: 32px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.prod1CardText {
+    font-size: 0.9rem;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+/* AVIATION */
+.prod1Text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 15%;
+    text-align: center;
+}

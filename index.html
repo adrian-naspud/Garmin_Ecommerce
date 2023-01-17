@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garmin</title>
+
+  <!-- Styles -->
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/styless.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/styless.css">
+
+  <link rel="stylesheet" href="css/resposive.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <figure class="logo">
+      <img class="logo" src="images/logo.png" alt="">
+    </figure>
+    <ul class="containItem">
+      <li class="item"><a href="#products">Watches</a></li>
+      <li class="item"><a href="#aviation">Aviation</a></li>
+      <li class="item desplegar"><a>Carrito<span id="contadorCarrito">0</span></a>
+        <div class="list">
+          <div class="list__buy">
+            <div class="list__item">
+              <figure>
+                <img class="img__item" src="/images/1.webp" alt="">
+              </figure>
+              <div class="text__item">
+                <h3 class="title__item">Prodcuto</h3>
+                <p class="parrafo__item">descripción</p>
+              </div>
+              <section class="quantityPriceRemove">
+                <div class="price__item">$19.99</div>
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn_remove" id="btnRemove" type="button">X</button>
+              </section>
+            </div>
+            <div class="list__item">
+              <figure>
+                <img class="img__item" src="images/11.webp" alt="">
+              </figure>
+              <div class="text__item">
+                <h3 class="title__item">Nombre Prodcuto</h3>
+                <p class="parrafo__item">descripción</p>
+              </div>
+              <section class="quantityPriceRemove">
+                <span class="price__item">$19.99</span>
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn_remove" id="btnRemove" type="button">X</button>
+              </section>
+            </div>
+            <div class="list__item">
+              <figure>
+                <img class="img__item" src="images/11.webp" alt="">
+              </figure>
+              <div class="text__item">
+                <h3 class="title__item">Nombre Prodcuto</h3>
+                <p class="parrafo__item">descripción</p>
+              </div>
+              <section class="quantityPriceRemove">
+                <span class="price__item">$19.99</span>
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn_remove" id="btnRemove" type="button">X</button>
+              </section>
+            </div>
+
+            <div class="list__button">
+              <button class="btn" onclick="location.href='http:/thankyou.html'">Comprar</button>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- Shipping promo -->
+  <section class="ship"> FREE GROUND SHIPPING ON ORDERS $25 AND UP. FREE 2ND-DAY SHIPPING ON MOST ORDERS $499 AND UP
+  </section>
+  <!-- Hero section -->
+  <section class="hero">
+    <img src="images/51435-1-D.webp" alt="" class="heroImg1">
+    <img src="images/51435-2-T.webp" alt="" class="heroImg2">
+    <div class="heroLeft">
+      <div class="heroLeftTitle">HAPPY NEW YEAR</div>
+      <div class="heroLeftText">Prioritize your health and wellness and save on selected products!</div>
+      <a href="#products" class="heroLeftButton">SHOP</a>
+    </div>
+  </section>
+  <div class="heroImgb">
+    <div class="heroLeft2">
+      <div class="heroLeftTitle2">HAPPY NEW YEAR</div>
+      <div class="heroLeftText2">Prioritize your health and wellness and save on selected products!</div>
+      <a class="heroLeftButton2" href="#products">SHOP</a>
+
+      <img src="/images/cart_icon.png" alt="" srcset="">
+
+    </div>
+  </div>
+  <!-- SALE WATCHES -->
+  <section class="prod1" id="products">
+    <div class="prod1Title">WATCHES</div>
+    <div class="prod1Text">When it comes to smartwatches, there are many things to consider: fit, style, features and
+      materials. It&apos;s not one-size-fits-all. A watch with built-in safety features, stress monitoring and health
+      tracking might rise to the top. Or one made for different activities — from climbing to running to golf. </div>
+    <section class="prod1Items" id="containproducts">
+      <!-- <div class="prod1card">
+        <figure>
+          <img src="images/1.webp" alt="" srcset="" width="300px">
+        </figure>
+        <div class="prod1CardTitle">VENU 2/2S</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$349.99</div>
+        </div>
+        <div class="prod1CardText">To you, healthy living is about being more in touch with your mind and your body. Get
+          the GPS smartwatch with advanced health and fitness features to help get you there.</div>
+      </div>
+      <div class="prod1card">
+        <img src="images/2.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">VENU SQ MUSIC</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$149.99</div>
+        </div>
+        <div class="prod1CardText">Featuring a bright color display, the Venu Sq GPS smartwatch combines daily style
+          with health monitoring and fitness features that inspire you to keep moving. </div>
+      </div>
+      <div class="prod1card">
+        <img src="images/3.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">VIVOACTIVE 4/4S</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$199.99</div>
+        </div>
+        <div class="prod1CardText">GPS smartwatches in two sizes, featuring built-in sports apps, contactless payments,
+          music and all-day health monitoring </div>
+      </div>
+      <div class="prod1card">
+        <img src="images/4.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">ENDURO 2</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$999.99</div>
+        </div>
+        <div class="prod1CardText"> You are an ultra racer. You need a multisport GPS watch that can go to extremes -
+          with solor charging, incredible GPS battery life and bulti-in mapping to help you stay ahead of the pack</div>
+      </div>
+      <div class="prod1card">
+        <img src="images/5.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">FORERUNNER 45 SERIES</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$139.99</div>
+        </div>
+        <div class="prod1CardText">GPS running watches with Garmin Coach training support</div>
+      </div>
+      <div class="prod1card">
+        <img src="images/6.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">VIVO SMART 4</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$99.99</div>
+        </div>
+        <div class="prod1CardText">Slim, smart activity tracker with a wrist-based Pulse Ox sensor and energy
+          monitoring.</div>
+      </div> -->
+    </section>
+  </section>
+  <!-- SALE AVIATION -->
+  <section class="prod1" id="aviation">
+    <div class="prod1Title">AVIATION</div>
+    <div class="prod1Text">Garmin's aviation products and services have revolutionized flight and become essential to
+      the lives of pilots, aircraft owners and operators around the world. A leading provider of solutions to general
+      aviation, business aviation, rotorcraft, advanced air mobility, government and defense, and commercial air carrier
+      customers, Garmin believes every day is an opportunity to innovate.</div>
+    <section class="prod1Items" id="containproductsA">
+      <!-- <div class="prod1card">
+        <img src="images/7.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">D2 Mach I</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$1,299.99</div>
+        </div>
+        <div class="prod1CardText">You're a pilot. You want a premium aviator smartwatch with advanced tools for flying
+          — and health and fitness features to help you enhance your pilot life. </div>
+      </div>
+      <div class="prod1card">
+        <img src="images/8.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">GI 275</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$7,895.99</div>
+        </div>
+        <div class="prod1CardText">Bright, reliable, high-resolution touchscreen instruments that offer all-purpose
+          digital upgrades from traditional round mechanical instruments.</div>
+      </div>
+      <div class="prod1card">
+        <img src="images/9.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">GTN 750Xi</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$19695.00</div>
+        </div>
+        <div class="prod1CardText">It&apos;s a faster, smarter, visually sharper edition of aviation&apos;s premier touchscreen
+          GPS/Nav/Comm/MFD suite. </div>
+      </div>
+      <div class="prod1card">
+        <img src="images/10.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">GFC 600 Autopilot</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$23,055.00</div>
+        </div>
+        <div class="prod1CardText">Full featured, retrofit flight control solution for high-performance single- and
+          twin- engine piston aircraft as well as turboprops and jets.</div>
+      </div>
+      <div class="prod1card">
+        <img src="images/11.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">Aera 760</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$1599.00</div>
+        </div>
+        <div class="prod1CardText">Innovative, all-in-one portable GPS for pilots with 7 inch display</div>
+      </div>
+      <div class="prod1card">
+        <img src="images/12.webp" alt="" srcset="" width="300px">
+        <div class="prod1CardTitle">G3X Touch Experimental</div>
+        <div class="prod1CardPrice">
+          <div class="prod1CardPrice1">BUY</div>
+          <div class="prod1CardPrice2">$4210.00</div>
+        </div>
+        <div class="prod1CardText">Advanced touchscreen flight displays for experiemtnal aircraft</div>
+      </div> -->
+    </section>
+  </section>
+
+  <!-- PRODUCTS MODALS -->
+  <section id="modalContainProducts">
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <section class="modalContainProductsA">
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <!-- MODAL -->
+  <div class="test">
+    <div id="modal" class="bgModal">
+      <div class="modal">
+        <figure id="btnClose">
+          <img src="images/close.png" class="imgIcon" alt="" srcset="">
+        </figure>
+        <div id="modalContainProduct">
+
+          <div class="prod1card">
+            <img src="images/12.webp" alt="" srcset="" width="300px">
+            <div class="prod1CardTitle">G3X Touch Experimental</div>
+            <div class="prod1CardPrice">
+              <div class="prod1CardPrice1">BUY</div>
+              <div class="prod1CardPrice2">$4210.00</div>
+            </div>
+            <div class="prod1CardText">Advanced touchscreen flight displays for experiemtnal aircraft</div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <button id="btnModal" class="button">Open Modal</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <section class="footersito">
+      <div class="CS fl">
+        <div class="fTitle">CUSTOMER SERVICE</div>
+        <div class="flink">
+          <a href="#">Support Center</a>
+          <a href="#">Deals and Promotions</a>
+          <a href="#">Order/Return Status</a>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">Warranty Information</a>
+          <a href="#">Find a Dealer</a>
+          <a href="#">Data Management</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="CO fl">
+        <div class="fTitle">COMPANY</div>
+        <div class="flink">
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Investors</a>
+          <a href="#">Newsroom</a>
+          <a href="#">Retail Store</a>
+          <a href="#">Sustainability</a>
+        </div>
+      </div>
+      <div class="CA fl">
+        <div class="fTitle">CAREERS</div>
+        <div class="flink">
+          <a href="#">Jobs</a>
+          <a href="#">Benefits</a>
+          <a href="#">Life at Garmin</a>
+          <a href="#">Students</a>
+        </div>
+      </div>
+      <div class="GS fl">
+        <div class="fTitle">GARMIN SITES</div>
+        <div class="flink">
+          <a href="#">Garmin Connect</a>
+          <a href="#">Garmin Express</a>
+          <a href="#">flyGarmin</a>
+          <a href="#">Connect IQ</a>
+          <a href="#">Garmin Health</a>
+          <a href="#">Solutions</a>
+          <a href="#">Sensors</a>
+        </div>
+      </div>
+      <div class="PA fl">
+        <div class="fTitle">PARTNERS</div>
+        <div class="flink">
+          <a href="#">Fleet Management</a>
+          <a href="#">Developers</a>
+          <a href="#">Dealer Resource Center</a>
+          <a href="#">OneHelm</a>
+          <a href="#">Sponsorships</a>
+        </div>
+      </div>
+    </section>
+    <section class="footersito2">
+      <div class="fLocation">United States</div>
+      <div class="fsocial">
+        <a href="https://www.facebook.com/Garmin"><img src="images/icons8-facebook.svg" alt="" srcset=""></a>
+        <a href="https://twitter.com/garmin"><img src="images/icons8-twitter.svg" alt="" srcset=""></a>
+        <a href="https://www.youtube.com/garmin"><img src="images/icons8-youtube.svg" alt="" srcset=""></a>
+        <a href="https://www.pinterest.com/garmin/"><img src="images/icons8-pinterest.svg" alt="" srcset=""></a>
+        <a href="https://instagram.com/garmin/"><img src="images/icons8-instagram.svg" alt=""></a>
+      </div>
+    </section>
+    <section class="footersito3">Copyright © 1996-2023 Garmin Ltd. or its subsidiaries</section>
+  </footer>
+  <script type="module" src="src/js/custom.js"></script>
+  <!-- <script src="src/js/cart.js"></script> -->
+  <!-- <script src="src/utils/data.js"></script> -->
+</body>
+
+</html>

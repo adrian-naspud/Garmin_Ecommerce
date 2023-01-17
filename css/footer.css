@@ -1,0 +1,56 @@
+/* FOOTER */
+
+footer {
+    padding: 40px 24px 24px 24px;
+    background-color: var(--darkBlack);
+}
+
+.footersito {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.fl {
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flink a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: none;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6px;
+}
+
+.footersito2 {
+    padding: 60px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    border-bottom: 5px solid var(--white);
+}
+
+.fsocial {
+    display: flex;
+    gap: 20px 20px;
+    padding-bottom: 10px;
+}
+
+.footersito3 {
+    padding-top: 12px;
+    color: var(--white);
+    font-size: 12px;
+}

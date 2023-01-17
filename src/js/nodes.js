@@ -1,0 +1,6 @@
+export const buttonModal = document.getElementById('btnModal')
+export const modal = document.getElementById('modal')
+export const containProduct = document.getElementById('containproducts')
+export const containProductA = document.getElementById('containproductsA')
+export const modalContainProduct = document.getElementById('modalContainProducts')
+export const modalContainProductA = document.getElementById('modalContainProductsA')

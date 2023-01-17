@@ -1,0 +1,31 @@
+@media (max-width: 1100px) {
+  .heroImg1 {
+    display: none;
+  }
+
+  .heroImg2 {
+    display: inherit;
+  }
+
+  .heroLeft {
+    display: none;
+  }
+
+  .heroImgb {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .prod1Items {
+    padding: 5% 2%;
+  }
+}
+
+@media (max-width: 810px) {
+  .prod1Items {
+    gap: 20px 20px;
+  }
+}
